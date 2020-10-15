@@ -12,7 +12,7 @@ List out the areas in which data structures are applied extensively?
 
 
 what is an Array?
-
+A. Array......
 
 what is the difference between the Array and ArrayList?
 what is LinkedList?
@@ -29,6 +29,8 @@ what is the difference between the HashTable and HashMap?
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+
+
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
 What is DFS and BFS?
