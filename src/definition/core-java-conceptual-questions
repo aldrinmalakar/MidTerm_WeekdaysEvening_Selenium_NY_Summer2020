@@ -38,6 +38,9 @@ class is a blueprint of object where we can write a code
 
 
 What is object?
+An object is an element of a class
+A class can be defined as a template /blueprint that describes the behavoir state that
+the object of its type support
 
 
 
@@ -46,12 +49,38 @@ What is the entry point of an application?
 
 
 Why main is static?
+//Answer
+java main method is always staic so that  can tell it without the creation of
+an object or before the creation of an object of the class
+
 Which class is the superclass of all classes?
+//Answer
+The object class which stroe in the java ,lang package, it the ultimate superclass of all java classes
+
 What is difference between path and classpath variables?
+//Answer
+Major different between path and class path is an environment variable which is used by the operating system to find the executables
+
 What is the difference between an Interface and Abstract class?
+//Answer
+Classes can implement multiple interfaces but only one abstact class,abstract classes can contain non abstsrct methods they can
+have methods ,variables and neither one can be instantiated
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
+//Answer
+no interface and abstaract class can't create object interface is not a class inter face is for future use
+we can do implement a subclass of abstract class which of course must not be abstact
+ecifier?
+//Answer
+the access specifier in java the accessibility or scope of a field ,method ,constructor,or
+ class we can change the access level of field
+
 What is OOP ? Define each feature of java OOP.
+
+//Answer
+oop is a object oriented peograme there are 4 typs of oop
+1: interface
+
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
