@@ -1,5 +1,9 @@
 package jasonparser;
-
+/**
+ *
+ *Autor: ALAEDDINE Kramou
+ *date: 10/01/2020
+ */
 public class Employee {
 
     private String empEmail;

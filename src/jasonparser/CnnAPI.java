@@ -1,5 +1,9 @@
 package jasonparser;
-
+/**
+ *
+ *Autor: ALAEDDINE Kramou
+ *date: 10/01/2020
+ */
 public class CnnAPI {
     /*
       You can get API_KEY from this below link. Once you have the API_KEY, you can fetch the top-headlines news.

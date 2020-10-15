@@ -1,7 +1,11 @@
 package algorithm;
 
 public class Sort {
-
+    /**
+     *
+     *Autor: ALAEDDINE Kramou
+     *date: 10/01/2020
+     */
     long executionTime = 0;
 	/*
 	 * Please implement all the sorting algorithm. Feel free to add helper methods.

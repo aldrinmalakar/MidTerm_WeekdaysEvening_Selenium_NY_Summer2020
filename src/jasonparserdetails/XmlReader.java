@@ -17,7 +17,11 @@ import java.util.List;
 /*
  * This XmlReader class are using DOM parser to read data from XML.
  */
-
+/**
+ *
+ *Autor: ALAEDDINE Kramou
+ *date: 10/01/2020
+ */
 public class XmlReader {
 	
 	public List<databases.Student> parseData(String tagName, String path) throws ParserConfigurationException, SAXException, IOException {

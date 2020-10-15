@@ -9,7 +9,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Iterator;
 
-
+/**
+ *
+ *Autor: ALAEDDINE Kramou
+ *date: 10/01/2020
+ */
 public class ReadExcelFile {
 
     private static final String FILE_NAME = System.getProperty("user.dir") + "/DataTest/Sample.xlsx";

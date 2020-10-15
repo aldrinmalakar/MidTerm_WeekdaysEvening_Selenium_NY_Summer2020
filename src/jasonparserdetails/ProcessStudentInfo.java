@@ -9,7 +9,11 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ *
+ *Autor: ALAEDDINE Kramou
+ *date: 10/01/2020
+ */
 public class ProcessStudentInfo {
 
 		/*
