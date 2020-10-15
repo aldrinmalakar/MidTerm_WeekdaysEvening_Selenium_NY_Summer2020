@@ -2,26 +2,32 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-
+It is a language that gives a set of instructions to the computer to perform tasks. Since computers
+only understand binary, which consists of 0 and 1, programming language creates a bridge with regular
+spoken words and sentences, and turns them into syntaxes which makes the computer perform required tasks.
 
 
 
 
 What jdk contains or composed of and define each components?
 A.
-
-
-
-
+The JDK is a software package that contains a variety of tools and utilities that make it possible to
+develop, package, monitor and deploy softwares that are build for any standard Java platform.
+It has multiple components, such as:
+JRE: the Java Runtime Component.
+JavaC: Java compiler.
+Applet Viewer: used to run and debug java applets without browsers.
+javadoc: document generator.
+etc.
 
 What is IDE?
 A.
-
+IDE is an application where programming softwares are used to make other software.
 
 
 What are the IDEs available in the market to support java?
 A.
-
+Eclipse, IntelliJ, netBeans, BlueJ, DrJava etc.
 
 
 Explain the entire java life cycle.
@@ -31,28 +37,63 @@ Explain the entire java life cycle.
 
 
 what is class?
-
-
-
+Class is a blueprint of an object which can describe the state or behavior of an object.
 
 What is object?
-
+An object is an instance of a class that stores its state in variables and exposes it's behavior
+through methods.
 
 
 What is the entry point of an application?
-
-
+the main method.
 
 Why main is static?
+So JavaC can call it without creating an object.
+
 Which class is the superclass of all classes?
+Object class is called the superclass.
+
 What is difference between path and classpath variables?
+Path is used to set path for all java application. classpath is used to set the path for java classes.
+
 What is the difference between an Interface and Abstract class?
+Interface can only have abstract methods. Abstract class can have abstract and non-abstract methods.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Creating an object of abstract class or interface is not directly possible. It can be achieved
+through implenting.
+
 what is Access Specifier?
+It determines whether a field or method in a class can be used or invoked by another method in another
+class or subclass or method.
+
 What is OOP ? Define each feature of java OOP.
+Object-Oriented Programming (OOP) is a programming language model, which uses
+Objects and data as core components.
+    Encapsulation
+    Encapsulation is all about wrapping variables and methods in one single unit with the sole purpose
+    of data hiding from external classes. Read the full Java Encapsulation Example for more details.
+    Inheritance
+    Inheritance is the OOP ability that allows Java classes to be derived from other classes. Read the
+    full Java Inheritance Example for more details.
+    Abstraction
+    Abstraction is a process of hiding the implementation details from the user. Оnly the functionality
+    will be provided to the user. Read the full Java Abstraction Example for more details.
+    Polymorphism
+    Polymorphism in Java allows subclasses of a class to define their own unique behaviours and yet
+    share some of the same functionality of the parent class. Read the full Java Polymorphism Example for more details.
+
 What is Java Package and which package is imported by default?
+Package is a collection of Java classes and interfaces. the java language package, also known as -
+java.lang Package is the package that is imported by default.
+
 What is API? Name list of API that you have used so far.
+An API is a way to programmatically interact with a separate software component or resource.
+I have used Java API while working on programs that were written in Java.
+
 Does java support multiple inheritance, explain why or why not?
+
+
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
