@@ -1,41 +1,205 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+A. Using the necessary data structure helps a computer machine to more accurately execute
+ its role by impacting the computer's ability to store and retrieve data from any place in its memory.
 
 What are the various operations that can be performed on different Data Structures?
+A.Basic Operations on Data Structures:
+   -Insertion: Add a new data item in the data structure .
+   -Deletion: Delete an existing data item from the data structure.
+   -Traversal:Access each data item exactly once so that it can be processed.
+   -Searching: Find out the location of the data item if it exists in the data structure.
+   -Sorting: Arranging the data items in some order.
 
 
 
 List out the areas in which data structures are applied extensively?
+A. - Compiler Design.
+   - Operating System.
+   - Database Management System.
+   - Statistical analysis package.
+   - Numerical Analysis.
+   - Graphics.
+   - Artificial Intelligence.
+   - Simulation.
 
 
 what is an Array?
+A. Arrays are used to store multiple values in a single variable,
+instead of declaring separate variables for each value. Arrays are zero indexed, it start form 0
+  # There are 3 Type of array: - One dimensional array:  String []
+                               - Deux dimensional array: String[][]
+                               - Three dimensional array: String [][][]
+
+  #    the syntax : DataType [] variableName = new DataType[numberOfVariables];
+
+
 
 
 what is the difference between the Array and ArrayList?
+A. -Array is a fixed length data structure
+   - ArrayList is a variable length Collection class.
+   - ArrayList is part of collection framework in Java.
+  Array can contain both primitive data types as well as objects of a class .
+  ArrayList only supports object entries, not the primitive data types.
+
+
+
 what is LinkedList?
+A. A linked list is a sequence of elements arranged one after another, with each
+element connected to the next element by a “link.”
+A common programming
+practice is to place each element together with the link to the next element,
+resulting in a component called a node
+   * The syntax: LinkedList<key> name =new LinkedList<>();
+
 How is an Array different from Linked List?
+A.
+
+
+
 what is queue?
+A.Java Queue is an interface available in java.util package and extends java.util.Collection interface.
+  Java Queue is a collection of ordered elements (Or objects).
+  We can use Queue to store elements before processing those elements.
+
 what is stack?
+A. A Stack is a Last In First Out (LIFO) data structure. Two basic operations called push and pop are supported. At the top of the stack,
+ the push operation attaches an element, and the pop operation eliminates an element from the top of the stack.
+
+
 what is FIFO and LIFO?
+A. LIFO "Last In, First Out" : is a method of processing data in which the last items entered are the first to be removed.
+   FIFO (First In, First Out), in which items are removed in the order they have been entered.
+
+
+
+
 what is the order of complexity?
+A. This means that the size of the input is a certain mathematical expression, and the algorithm ends with two factors.
+   the lower the order of complexity of the underlying algorithm of the program,
+   the faster it runs and the more it scales as the input becomes bigger.
+
 what is the best case to search an element from an array?
+A. the fastest way is to simply iterate through the array and look for it.
+
+
+
+
 what is the worst case to search an element from an array?
+A. The worst case arises when the element is at last position or not in the array, therefore we have to traverse the whole array giving n no.
+  of repetitions over loop. Therefore the worst case time complexity is O(n).
+
+
 what is tree in data structure?
+A. A tree is a nonlinear structure of hierarchical data consisting of nodes linked by edges.
+( A node is an object with a key or value and a pointer to its child nodes.
+ An Edge is the link between any two nodes).
+
+
+
 what is graph in data structure?
+A.A Graph is a system of non-linear data composed of nodes and edges.
+  Often the nodes are also known as vertices, and the edges are lines or arcs connecting any two nodes in the graph.
+
+
 what is the difference between the HashTable and HashMap?
+A.-HashMap is non synchronized. It not-thread safe and can't be shared between many threads without proper synchronization code.
+   Hashtable is synchronized. It is thread-safe and can be shared with many threads.
+  -HashMap allows one null key and multiple null values.
+   Hashtable doesn't allow any null key or value.
+  -HashMap is a new class introduced in JDK 1.2.
+   Hashtable is a legacy class.
+  -HashMap is fast.
+   Hashtable is slow.
+  -We can make the HashMap as synchronized by calling this code
+  -HashMap is traversed by Iterator.
+   Hashtable is traversed by Enumerator and Iterator.
+  -Iterator in HashMap is fail-fast.
+  	Enumerator in Hashtable is not fail-fast.
+  -HashMap inherits AbstractMap class.
+   Hashtable inherits Dictionary class.
+
+
+
+
+
+
+
+
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. RDBMS(RDBMS- relational database management system) = Array (i.e. Array of structures)
+   Network data model = Graph
+   Hierarchical data model = Trees
+
+
+
 How HashMap works in java?
+A.
+
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.The ArrayIndexOutOfBoundsException is a subclass of IndexOutOfBoundsException, and it implements the Serializable interface.
+ #It occurs whenever we are trying to access any item of an array at an index which is not present in the array.
+  and the index may be negative or exceed the size of an array.
+
+
+
+
 What are the different ways of copying an array into another array?
+A. Is by:
+   -Using variable assignment. This method has side effects as changes to the element of an array reflects on both the places.
+    To prevent this side effect following are the better ways to copy the array elements.
+   -Create a new array of the same length and copy each element.
+   -Use the clone method of the array. Clone methods create a new array of the same size.
+   -Use System.arraycopy() method. arraycopy can be used to copy a subset of an array.
+
+
 What is difference between an array and a linked list?
+A. - Array It is a consistent set of a fixed number of data items.
+        Linked list It is an ordered set comprising a variable number of data items.
+      - In Array Element location is allocated during compile time.
+        In linked list Element position is assigned during run time.
+      - In Array Stored consecutively
+        In linked list Insertion and deletion of element are  Stored randomly
+      - In Array Insertion and deletion of element are Slow relatively as shifting is required.
+        In Linked list Insertion and deletion of element are Easier, fast and efficient.
+      - Array gets memory allocated in the Stack section.
+        linked list gets memory allocated in Heap section.
+
 What is DFS and BFS?
+A.Breadth First Search (BFS) algorithm traverses a graph in a breadth ward
+ motion and uses a queue to remember to get the next vertex to start a search when a dead end occurs in any iteration.
+ # Depth First Search (DFS) algorithm traverses a graph in a depth ward motion and uses a stack
+ to remember to get the next vertex to start a search when a dead end occurs in any iteration.
+
+
+
+
 What is Recursion?
+A.Recursion is the technique of making a function call itself.
+This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+
+
+
+
 What are linear and non linear data Structures?
+A.In linear data structure, data elements are sequentially connected and each element is traversable through a single run.
+ Non-linear data structure, data elements are hierarchically connected and are present at various levels.
+
+
+
+
 What is Big-(O)-notation?
+A. Big O Notation is a relative representation of an algorithm's complexity.
+  It describes how an algorithm performs and scales by denoting an upper bound of its growth rate.
+  It describes the upper bound of the growth rate of a function and could be thought of the worst case scenario
+
+
 Outlined different kind of sorting algorithm with time complexity?
+A.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
