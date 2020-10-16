@@ -1,7 +1,7 @@
 package mathproblems;
 
 import java.util.Scanner;
-
+//Done
 public class Fibonacci {
     public static void main(String[] args) {
          /*
@@ -19,15 +19,15 @@ public class Fibonacci {
         int n = userInput.nextInt();
 
         int first = 0;
-        int second =1;
+        int second = 1;
         int fiboSeq;
-        System.out.println("Your desired length of Fibonacci sequence is: [ " + n +" ]");
-        System.out.print(" the series is: " + first +" "+ second);
-    for (int i = 3; i < n; i++){
-        fiboSeq = first + second;
-        System.out.print(" "+fiboSeq);
-        first = second;
-        second = fiboSeq;
+        System.out.println("Your desired length of Fibonacci sequence is: [ " + n + " ]");
+        System.out.print("The series is: " +"\n"+ first + " " +"\n"+ second +"\n");
+        for (int i = 3; i < n; i++) {
+            fiboSeq = first + second;
+            System.out.println(fiboSeq);
+            first = second;
+            second = fiboSeq;
     }
 
      }
